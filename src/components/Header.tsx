@@ -1,11 +1,15 @@
 import style from './Header.module.css'
 
-export function Header() {
+type HeadingProps = {
+  children: string;
+}
+
+export function Heading(props: HeadingProps) {
 
   return (
 
     <h1 className={style.head}>
-      Teste
+      {props.children}
     </h1>
 
   )

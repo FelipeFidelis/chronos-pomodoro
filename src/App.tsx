@@ -1,4 +1,4 @@
-import { Header } from './components/Header.tsx'
+import { Heading } from './components/Header.tsx'
 
 import './styles/Global.css'
 import './styles/theme.css'
@@ -6,7 +6,7 @@ import './styles/theme.css'
 export function App() {
   return (
     <>
-      <Header />
+      <Heading>Teste</Heading>
     </>
   )
 }
